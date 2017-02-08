@@ -14,7 +14,7 @@ $extraMenu = $view['menu']->render('extra');
 <div class="sidebar-header">
     <!-- brand -->
     <a class="mautic-brand<?php echo (!empty($extraMenu)) ? ' pull-left pl-0 pr-0' : ''; ?>" href="#">
-        <img src="<?php echo $view['assets']->getUrl('media/images/inboundRx_logo_white.svg') ?>" style="margin-top: 15px;" />
+        <img src="<?php echo $view['assets']->getUrl('media/images/inboundRx_logo_white.svg') ?>" class="mautic-logo-figure" style="margin-top: 15px;" />
     </a>
     <?php if (!empty($extraMenu)): ?>
         <div class="dropdown extra-menu">
